@@ -53,6 +53,12 @@
 </template>
 
 <script>
+import {Input, Button, Tree} from "element-ui";
+import 'element-ui/lib/theme-chalk/input.css';
+import 'element-ui/lib/theme-chalk/button.css';
+import 'element-ui/lib/theme-chalk/tree.css';
+import 'element-ui/lib/theme-chalk/icon.css';
+
 export default {
   name: 'selectPerson',
   data() {
@@ -131,6 +137,9 @@ export default {
       }
       return _tmp
     }
+  },
+  components: {
+    elInput: Input, elButton: Button, elTree: Tree
   },
   mounted() {
     this.parentNodes = this.filterParent(this.data)
@@ -271,7 +280,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .selector-tree {
   display: flex;
   justify-content: space-between;

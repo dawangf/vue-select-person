@@ -13,23 +13,19 @@ Include and install plugin in your `main.js` file.
 
 ```js
 import Vue from 'vue'
-import vueSelectPerson from 'vue-select-person'
-Vue.use(vueSelectPerson)
+import selectPerson from 'vue-select-person'
+Vue.use(selectPerson)
 ```
 
 You also can use `vue-select-person` in local component
 
 ```vue
 <template>
-  <vue-select-person></vue-select-person>
+  <select-person></select-person>
 </template>
 
 <script>
-import { vueSelectPerson } from 'vue-select-person'
 export default {
-  components: {
-    'vue-select-person': vueSelectPerson
-  }
 }
 </script>
 ```
@@ -38,10 +34,10 @@ export default {
 
 ```vue
 <template>
-  <vue-select-person
+  <select-person
     :data="data"
     @check-change="checkChange"
-  ></vue-select-person>
+  ></select-person>
 </template>
 
 <script>

@@ -1,6 +1,6 @@
 {
   "name": "vue-select-person",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "基于 Vue 的人员选择器",
   "main": "lib/select-person.umd.min.js",
   "keyword": "vueselectperson vuepersonselect selectperson personselect vue-select-person vue-person-select select-person person-select",
@@ -17,15 +17,24 @@
     "vue": "^2.6.11"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.11.5",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "node-sass": "^4.14.1",
     "sass-loader": "^10.0.2",
     "vue-template-compiler": "^2.6.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dawangf/vue-select-person.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dawangf/vue-select-person/issues"
   },
   "eslintConfig": {
     "root": true,

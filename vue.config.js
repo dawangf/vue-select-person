@@ -1,4 +1,7 @@
 module.exports = {
+  css:{
+    extract:false
+  },
   // 修改 src 为 examples
   pages: {
     index: {
