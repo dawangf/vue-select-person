@@ -53,11 +53,7 @@
 </template>
 
 <script>
-import {Input, Button, Tree} from "element-ui";
-import 'element-ui/lib/theme-chalk/input.css';
-import 'element-ui/lib/theme-chalk/button.css';
-import 'element-ui/lib/theme-chalk/tree.css';
-import 'element-ui/lib/theme-chalk/icon.css';
+import {Input, Button, Tree} from 'element-ui'
 
 export default {
   name: 'selectPerson',
