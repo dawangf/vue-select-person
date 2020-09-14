@@ -1,7 +1,7 @@
 language: node_js
 # nodejs版本
 node_js:
-  - '12'
+  - '12.18.1'
 
 # Travis-CI Caching
 cache:
