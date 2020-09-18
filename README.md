@@ -80,3 +80,27 @@ export default {
 }
 </script>
 ```
+
+![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+
+
+
+#### Attributes
+
+
+| Name           | Type     | Required | default | Description                     |
+| -------------- | -------- | -------- | --------------- |  ------------------------------- |
+| placeholder    | `string` | --       | 请输入姓名/部门搜索 | 搜索框提示语                     |
+| empty-text	 | `string` | --       | 暂无数据       | 内容为空的时候展示的文本          |
+| nodeKey        | `string` | --       | --       |  对象的唯一值，一般用id，不要用循环的index(每个树节点用                                            来作为唯一标识的属性，整棵树应该是唯一的) |
+| show-check-box | `boolean`| --       | true       |  节点是否可被选择（控制单选还是多选）|
+| data           | `object` | --       | --       | 展示数据(树)               |
+| defaultProps   | `object` | --       | defaultProps: {children: 'children', label: 'label'}       |  配置选项, 具体参考 https://element.eleme.io/#/zh-CN/                                                   component/tree   |
+| defaultChecked | `object` | --       | --       |  默认勾选的节点的数组   |
+
+
+#### Events
+
+| Name           | Description                | CallBack                     |
+| -------------- | ------------------------   | ---------------------------- |
+| check-change   | 点击确认按钮的回调         |选中的节点                    |

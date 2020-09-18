@@ -17,6 +17,7 @@
         <el-tree
             ref="tree"
             class="filter-tree"
+            :empty-text="emptyText"
             :data="data"
             :props="defaultProps"
             :show-checkbox="showCheckbox"
@@ -41,7 +42,7 @@
           </div>
           <!-- 暂无数据 -->
           <div class="el-tree__empty-block" v-if="resultList && !resultList.length">
-            <span class="el-tree__empty-text">暂无数据</span>
+            <span class="el-tree__empty-text">{{ emptyText }}</span>
           </div>
         </div>
       </div>
@@ -54,6 +55,7 @@
 
 <script>
 import {Input, Button, Tree} from 'element-ui'
+import 'element-ui/lib/theme-chalk/icon.css'
 
 export default {
   name: 'selectPerson',
@@ -80,6 +82,10 @@ export default {
     placeholder: {
       type: String,
       default: '请输入姓名/部门搜索'
+    },
+    emptyText: {
+      type: String,
+      default: '暂无数据'
     },
     // 对象的唯一值，一般用id，不要用循环的index(每个树节点用来作为唯一标识的属性，整棵树应该是唯一的)
     nodeKey: {
