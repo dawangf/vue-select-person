@@ -1,6 +1,6 @@
 {
   "name": "vue-select-person",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "基于 Vue 的人员选择器",
   "main": "lib/select-person.umd.min.js",
   "keyword": "vueselectperson vuepersonselect selectperson personselect vue-select-person vue-person-select select-person person-select",

@@ -1,7 +1,7 @@
 # [vue-select-person](https://terryz.github.io/vue/#/page) &middot;[![npm version](https://img.shields.io/npm/v/vue-select-person.svg)](https://www.npmjs.com/package/vue-select-person) [![license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://mit-license.org/) [![npm download](https://img.shields.io/npm/dy/vue-select-person.svg)](https://www.npmjs.com/package/vue-select-person) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 A simple personSelect, based on <strong>Vue2</strong>;
-一个基于 [Element-UI](https://github.com/ElemeFE/element) 二次封装的人员选择器
+一个基于 [Element-UI](https://github.com/ElemeFE/element) 二次封装的人员选择器 [demo](http://blog.dawangf.top/vue-select-person/) （点击确定按钮要打开控制台查看获取的数据）
 
 ## Installation
 
@@ -81,7 +81,7 @@ export default {
 </script>
 ```
 
-![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+![Image text](http://blog.dawangf.top/vue-select-person/img1.png)
 
 
 
